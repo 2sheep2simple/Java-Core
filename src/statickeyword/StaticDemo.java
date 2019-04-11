@@ -1,4 +1,4 @@
-package abouStatic;
+package statickeyword;
 
 /**
  * @ClassName 关于static关键字的理解
@@ -26,6 +26,7 @@ public class StaticDemo {
     }
 
     public void staticnotusethis(){
+
         return;
     }
 

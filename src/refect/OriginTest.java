@@ -1,4 +1,4 @@
-package Refect;
+package refect;
 
 import org.junit.After;
 import org.junit.Before;

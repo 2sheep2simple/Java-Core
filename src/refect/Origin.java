@@ -1,4 +1,4 @@
-package Refect;
+package refect;
 
 /**
  * @ClassName
@@ -9,13 +9,12 @@ package Refect;
  **/
 public class Origin {
     public void getObject() throws ClassNotFoundException, IllegalAccessException, InstantiationException {
-        Apple apple = (Apple) Class.forName("Refect.Apple").newInstance();
+        Apple apple = (Apple) Class.forName("refect.Apple").newInstance();
         // 通过forName()方法获取Apple的Class对象
         apple.say();
 
         Apple redApple = Apple.class.newInstance();
         // 通过字面量获取Apple的Class对象
         redApple.say();
-
     }
 }
